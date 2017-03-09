@@ -17,8 +17,6 @@ include device/samsung/msm8929-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/Hisense/msm8929
 
-include device/Hisense/HS8929QC/board/*.mk
-
 TARGET_BOARD_INFO_FILE := device/Hisense/HS8929QC/board-info.txt
 
 # inherit from the proprietary version
