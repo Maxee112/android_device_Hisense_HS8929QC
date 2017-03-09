@@ -13,7 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/cyanogen/msm8916-common/BoardConfigCommon.mk
+include device/samsung/msm8929-common/BoardConfigCommon.mk
+
+DEVICE_PATH := device/Hisense/msm8929
 
 include device/Hisense/HS8929QC/board/*.mk
 
