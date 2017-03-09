@@ -15,15 +15,20 @@
 #
 
 # Inherit from msm8916-common
-#$(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+$(call inherit-product, device/samsung/msm8929-common/msm8929.mk)
 
 # Overlay
-#DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+PRODUCT_NAME := aosp_HS8929QC
+PRODUCT_DEVICE := HS8929QC
+PRODUCT_MODEL := Aosp on HS8929QC
+PRODUCT_MANUFACTURER := Hisense
 
 # Include package config fragments
 include device/Hisense/HS8929QC/device_HS8929QC.mk
 
-#$(call inherit-product-if-exists, vendor/Hisense/HS8929QC/HS8929QC-vendor.mk)
+$(call inherit-product-if-exists, vendor/Hisense/HS8929QC/HS8929QC-vendor.mk)
 
 
 
