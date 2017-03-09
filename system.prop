@@ -1,3 +1,2 @@
-#
-# system.prop for HS8929QC
-#
+# Hardware revision
+ro.product.model.platform=1

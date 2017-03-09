@@ -1,0 +1,2 @@
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Hisense/HS8929QC/bluetooth

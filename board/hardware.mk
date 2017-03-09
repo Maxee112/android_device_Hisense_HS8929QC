@@ -1,0 +1,2 @@
+# CMHW
+BOARD_HARDWARE_CLASS += device/Hisense/HS8929QC/cmhw
